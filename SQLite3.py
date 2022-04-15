@@ -14,6 +14,7 @@ c = conn.cursor()
 # conn.commit()
 
 c.execute("SELECT * FROM employees WHERE last='Schafer'")
+
 print(c.fetchall())
 
 conn.commit()
